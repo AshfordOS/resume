@@ -1,0 +1,246 @@
+body {
+  background-color: #20bf55;
+  background-image: linear-gradient(315deg, #20bf55 0%, #01baef 74%);
+}
+
+/*************************** HEADER AND LOGOS SETTINGS ***********************/
+
+header {
+  background-color: #EAF6F635;
+  box-shadow: 3px 5px 10px teal;
+  border-radius: 10px;
+}
+
+.column {
+  padding-top: 10px;
+  float: left;
+  width: 33.33%;
+}
+
+.logos-wrapper::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.baba-wrapper {
+  text-align: center;
+}
+
+.baba-name {
+  color: white;
+  border-style: none solid;
+  border-color: teal;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.baba-sub {
+  color: white;
+  border-style: none solid;
+  border-color: teal;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.baba-logo {
+  height: 170px;
+  width: 170px;
+  border-radius: 100%;
+}
+
+.crjs-logo {
+  width: 280px;
+  height: 300px;
+}
+
+.tn-logo {
+  height: 290px;
+  width: 205px;
+}
+
+.tn-wrapper {
+  text-align: right;
+}
+
+/*************************** HORIZONTAL RULE SETTINGS ***********************/
+
+hr {
+  border-style: dotted none none;
+  border-width: 10px;
+  border-color: white;
+  width: 5%;
+}
+
+/*************************** TITLES SETTINGS ***********************/
+
+.titles {
+  direction: rtl;
+  text-align: center;
+  color: white;
+  border-style: none inset;
+  border-color: teal;
+  border-radius: 10px;
+  padding: 5px;
+  box-shadow: 3px 5px 10px teal;
+
+}
+
+.titles-wrapper {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+}
+
+/*************************** CONTENT BOX SETTINGS ***********************/
+
+.content-wrapper {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-color: teal;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px;
+  width: 50%;
+}
+
+.p_resume {
+  padding: 5px;
+  color: teal;
+  direction: rtl;
+  text-align: right;
+  font-size: 20px;
+}
+
+/*************************** SHOW MORE BUTTON SETTINGS ***********************/
+
+.readMoreBtn {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 5px;
+  padding: 10px 10px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  background-color: teal;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 3px 5px 10px;
+
+}
+
+.moreText {
+  display: none;
+}
+
+.p_resume.showMore .moreText {
+  display: inline;
+}
+
+/*************************** POSITIONS TABLE SETTINGS ***********************/
+
+.positions_t {
+  direction: rtl;
+  width: 80%;
+  margin: 10px;
+  border-collapse: collapse;
+}
+
+.positions_t td {
+  border: 2px solid teal;
+  border-style: dashed none;
+  border-width: 2px;
+}
+
+.positions_t thead tr td {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.positions_t tr td {
+  font-size: 20px;
+}
+
+/*************************** CONTACT FORM SETTINGS ***********************/
+
+.contact-form{
+  direction: rtl;
+  padding: 10px;
+}
+
+.contact-form input {
+  padding: 3px;
+  margin: 5px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: teal;
+  background-color: #EAF6F6;
+}
+.contact-form textarea {
+  padding: 3px;
+  margin: 5px;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  border-color: teal;
+  background-color: #EAF6F6;
+}
+
+
+
+.contact-form label{
+  font-size: 15px;
+  color: teal;
+  font-weight: bold;
+}
+
+.contact-wrapper .messageLabel{
+  vertical-align: top;
+}
+
+.contact-form input[type=submit]{
+  font-size: 20px;
+  font-weight: bold;
+  color: teal;
+  box-shadow: 3px 5px 10px;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+.contact-form input[type=submit]:hover {
+  border-style:solid;
+  border-radius: 10px;
+  border-color: white;
+  color:white;
+  background-color:teal;
+  box-shadow: 3px 5px 10px teal;
+
+}
+
+/*************************** CONTACT FORM SETTINGS ***********************/
+
+footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  background-color: #EAF6F635;
+  box-shadow: 3px 5px 10px teal;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.social-icon {
+  height: 40px;
+  width: 40px;
+  padding: 2px;
+}
+
+.social-icon:hover {
+  cursor: pointer;
+}
