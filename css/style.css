@@ -162,7 +162,8 @@ hr {
 }
 
 .positions_t tr td {
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: bold;
 }
 
 /*************************** CONTACT FORM SETTINGS ***********************/
@@ -221,7 +222,7 @@ hr {
 
 }
 
-/*************************** CONTACT FORM SETTINGS ***********************/
+/*************************** FOOTER FORM SETTINGS ***********************/
 
 footer{
   display: flex;
